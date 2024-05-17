@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wildfire Predictor</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>Wildfire Predictor</h1>
+    <form id="prediction-form">
+        <label for="weather">Weather conditions:</label>
+        <input type="text" id="weather" name="weather" required>
+        <label for="vegetation">Vegetation:</label>
+        <input type="text" id="vegetation" name="vegetation" required>
+        <label for="topography">Topography:</label>
+        <input type="text" id="topography" name="topography" required>
+        <button type="submit">Predict</button>
+    </form>
+    <div id="visualization"></div>
+</body>
+</html>
