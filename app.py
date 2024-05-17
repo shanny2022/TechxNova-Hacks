@@ -1,6 +1,6 @@
-from flask import Flask, request
+from flask import Flask, request # type: ignore
 import joblib
-import pandas as pd
+import pandas as pd # type: ignore
 
 app = Flask(__name__)
 model = joblib.load('model.joblib')
